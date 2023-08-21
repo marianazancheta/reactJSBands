@@ -1,0 +1,21 @@
+.footer {
+    background-color: #6278F7;
+    display: flex;
+    height: 213px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media{
+    display: flex;
+    gap: 34px;
+}
+
+.footer-logo{
+    height: 63px;
+}
+
+.footer-info {
+    color: #fff;
+
+}

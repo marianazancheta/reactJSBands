@@ -1,0 +1,36 @@
+.card {
+    width: 262px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-top {
+    background-color: #57C278;
+    padding: 0 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-bottom {
+    padding: 0px 30px 30px 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    padding-top: 46px;
+}
+
+.card img {
+    width: 120px;
+    border-radius: 60px;
+    position: relative;
+    bottom: -50px;
+}
+
+.card h4 { 
+    margin-top:24px;
+    margin-bottom: 12px;
+    color: #6278F7;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 16px;
+}

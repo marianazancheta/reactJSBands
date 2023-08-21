@@ -1,0 +1,19 @@
+.team {
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.team h3 {
+    font-size: 32px;
+    padding-bottom: 8px;
+    border-bottom: 4px solid;
+    display: inline-block;
+}
