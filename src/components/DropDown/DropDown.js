@@ -1,17 +1,12 @@
 import './DropDown.css';
 
-const DropDown = (props) => {
-
-    const handleChange = evt => {
-        props.whenChanged(evt.target.value);
-    }
-
+const DropDown = ({label, value, whenChanged, items}) => {
     return (
         <div className="dropdown">
-            <label>{props.label}</label>
-            <select value={props.value} onChange={evt => props.whenChanged(evt.target.value)} >
+            <label>{label}</label>
+            <select value={value} onChange={evt => whenChanged(evt.target.value)} >
                 <option value=''></option>
-                {props.items.map(item => <option key={item}>{item}</option>)}
+                {items.map(item => <option key={item}>{item}</option>)}
             </select>
         </div>)
 

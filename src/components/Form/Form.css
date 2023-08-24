@@ -1,10 +1,11 @@
-.form {
+.forms {
     display: flex;
     justify-content: center;
-    margin: 80px 0;
+    margin: 80px 24px;
+    gap: 24px;
 }
 
-.form form {
+.forms form {
     width: 60%;
     border-radius: 20px;
     padding: 33px 96px;

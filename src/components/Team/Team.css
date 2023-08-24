@@ -1,7 +1,7 @@
 .team {
     text-align: center;
     padding: 40px;
-    
+    position: relative;
 }
 
 .team-section {
@@ -16,4 +16,10 @@
     padding-bottom: 8px;
     border-bottom: 4px solid;
     display: inline-block;
+}
+
+.input-color {
+    position: absolute;
+    top: 20px;
+    right: 50px;
 }
